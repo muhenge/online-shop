@@ -38,3 +38,26 @@ header {
     padding: 35px;
 }
 
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+ }
+
+ form {
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     grid-gap: 1px;
+ }
+
+ input {
+     border: none;
+     height: 30px;
+     color: gray;
+ }
+
+ select {
+     border: none;
+     background-color: white;
+ }
