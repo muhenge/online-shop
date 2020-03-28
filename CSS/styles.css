@@ -1,0 +1,40 @@
+:root {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+nav a img{
+    width: 35px;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+    margin-inline: 12px;
+}
+
+header {
+    text-align: center;
+    background-color: indianred;
+    color: white;
+    margin: 0;
+    padding: 35px;
+}
+
