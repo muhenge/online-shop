@@ -13,7 +13,7 @@ nav a img{
 }
 
 nav {
-    background-color: black;
+    background-color: #383838;
     color: white;
     display: flex;
     justify-content: center;
@@ -32,10 +32,16 @@ li {
 
 header {
     text-align: center;
-    background-color: indianred;
+    background-color: #d35266;
     color: white;
     margin: 0;
     padding: 35px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1px;
 }
 
 select {
@@ -45,19 +51,31 @@ select {
 
  }
 
- form {
-     display: grid;
-     grid-template-columns: repeat(3,1fr);
-     grid-gap: 1px;
- }
-
  input {
      border: none;
      height: 30px;
-     color: gray;
+     color: #888888;
  }
 
  select {
      border: none;
      background-color: white;
  }
+
+ section {
+    padding: 5px 250px 5px 250px;
+ }
+
+section#section-ads {
+    background-color: rgb(233, 243, 189);
+}
+
+figure {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+}
+
+figure img {
+    width: 150px;
+}
