@@ -1,5 +1,5 @@
 :root {
-    
+
 }
 
 body {
@@ -72,6 +72,7 @@ ul li a:hover {
 .red-btn:hover {
     background: white;
     color: #d35266;
+    border: 1px solid #d35266;
 }
 
 .user-pic {
@@ -95,13 +96,21 @@ form {
 
 input {
     border: none;
-    height: 30px;
+    height: 40px;
     color: #888888;
+    font-size: large;
+
 }
 
 select {
     border: none;
     background-color: white;
+    height: 40px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: #888888;
+    font-size: large;
 }
 
 main {
@@ -109,40 +118,81 @@ main {
     margin-top: 0;
 }
 
-select {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
+section {
+    margin: 12px;
+}
 
- }
-/* 
+.black-btn {
+    background-color: #383838;
+    color: white;
+    height: 43px;
+    border: none;
+    padding: 0 40px;
+    cursor: pointer;
+}
+/*
  section {
     margin: 0 190px;
 }  */
 
-.ads,
 .carts-list {
     margin: auto 150px auto 150px;
 }
 
 section#section-ads {
     background-color: white;
+    padding: 0 170px;
+    border-bottom: 1px solid rgba(228, 228, 228, 0.9);
+}
+
+h3 {
+    margin-left: 150px;
+    color: #888888;
+    font-weight: 100;
+}
+
+.ads {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h1 {
+    color: #d35266;
+    font-weight: 100;
 }
 
 .ads figure {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 70%;
+}
+
+.ads-btn {
     display: grid;
-    grid-template-columns: 1fr 3fr;
-    align-items: center;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 2px;
+    width: 50%;
 }
 
 figure img {
     width: 150px;
 }
 
+figure.ads-img img {
+    width: 350px;
+}
+
 .carts-list {
     display: grid;
     grid-template-columns: repeat( auto-fit, minmax(150px, 1fr) );
-    grid-gap: 5px;
+    grid-gap: 15px;
+}
+
+.carts {
+    border: 1px solid #888888;
+    
 }
 
 footer {
