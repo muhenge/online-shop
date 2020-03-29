@@ -1,11 +1,11 @@
 :root {
-    padding: 0;
-    margin: 0;
+    
 }
 
 body {
     padding: 0;
     margin: 0;
+
 }
 
 nav a img{
@@ -15,14 +15,20 @@ nav a img{
 nav {
     background-color: #383838;
     color: white;
+    position: relative;
+
+}
+
+.menu {
     display: flex;
-    justify-content: center;
-    margin: 0;
+    padding: 0 0 0 95px;
+    align-items: center
 }
 
 ul {
     list-style-type: none;
     display: inline-block;
+    width: inherit;
 }
 
 li {
@@ -30,18 +36,77 @@ li {
     margin-inline: 12px;
 }
 
+ul li a {
+    text-decoration: none;
+    color:white;
+}
+
+ul li a:hover {
+    color: #d35266;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pic {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 75px;
+}
+
+.red-btn {
+    background: #d35266;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.red-btn:hover {
+    background: white;
+    color: #d35266;
+}
+
+.user-pic {
+    width: 35px;
+    border-radius: 100%;
+}
+
 header {
     text-align: center;
     background-color: #d35266;
     color: white;
-    margin: 0;
     padding: 35px;
 }
-
+/*
 form {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 1px;
+} */
+
+
+input {
+    border: none;
+    height: 30px;
+    color: #888888;
+}
+
+select {
+    border: none;
+    background-color: white;
+}
+
+main {
+    background-color: #f6f6f6;
+    margin-top: 0;
 }
 
 select {
@@ -50,27 +115,21 @@ select {
     appearance: none;
 
  }
-
- input {
-     border: none;
-     height: 30px;
-     color: #888888;
- }
-
- select {
-     border: none;
-     background-color: white;
- }
-
+/* 
  section {
-    padding: 5px 250px 5px 250px;
- }
+    margin: 0 190px;
+}  */
 
-section#section-ads {
-    background-color: rgb(233, 243, 189);
+.ads,
+.carts-list {
+    margin: auto 150px auto 150px;
 }
 
-figure {
+section#section-ads {
+    background-color: white;
+}
+
+.ads figure {
     display: grid;
     grid-template-columns: 1fr 3fr;
     align-items: center;
@@ -78,4 +137,18 @@ figure {
 
 figure img {
     width: 150px;
+}
+
+.carts-list {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(150px, 1fr) );
+    grid-gap: 5px;
+}
+
+footer {
+    padding: auto 95px;
+}
+
+.footer-text {
+    width: 25%;
 }
