@@ -381,6 +381,8 @@ select#myList {
     margin: 0 15px 0 15px;
   }
 
-
+  .footer-text {
+    display: none;
+  }
 
 }
