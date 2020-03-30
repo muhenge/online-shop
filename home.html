@@ -1,170 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/brands.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/solid.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <title>Shop | Welcome</title>
-
-</head>
-<body>
- 
+  </head>
+  <body>
     <nav>
-        <div class="menu">
-            <div id="logo">
-                <a href="#"><img src="images/crown.svg" alt="" srcset=""></a>
-            </div>
-            <ul>
-                <li> <a href="">HOME</a> </li>
-                <li> <a href="">COLLECTION</a> </li>
-                <li> <a href=""> PURCHASE LIST</a></li>
-                <li> <a href=""></a> <button class="red-btn" type="submit">POST AND AD</button></li>
-            </ul>
+      <div class="menu">
+        <div id="logo">
+          <a href="#"><img src="images/crown.svg" alt="" srcset=""/></a>
         </div>
-       
-        <div class="pic">
-            
-                <span></span>
-                <span>Jane Doe</span>
-                <a href="#"><img class="user-pic" src="images/beauty" alt="..."></a>
-           
-          
-        </div>
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="">COLLECTION</a></li>
+          <li><a href=""> PURCHASE LIST</a></li>
+          <li>
+            <a href=""></a>
+            <button class="red-btn" type="submit">POST AND AD</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="pic">
+        <span></span>
+        <span>Jane Doe</span>
+        <a href="#"><img class="user-pic" src="images/beauty" alt="..."/></a>
+      </div>
     </nav>
     <header>
-        <h2>ZATTIX</h2>
-        <p>Buying and Selling Couldn't Be Simpler than this!</p>
-        <form>
-            <select name = "dropdown">
-               <option value = "Computer Architecture" selected>Computer Architecture</option>
-               <option value = "Java">Java</option>
-               <option value = "Discrete Mathematics">Discrete Mathematics</option>
-            </select>
-            <input type="text" name="search-item" id="item" placeholder="What do you search for ?">  
-            <input type="search" name="search" id="search">
-            <button type="submit" class="black-btn">Search</button>
-         </form>
+      <h2>ZATTIX</h2>
+      <p>Buying and Selling Couldn't Be Simpler than this!</p>
+      <form>
+        <select name="dropdown">
+          <option value="Computer Architecture" selected
+            >Computer Architecture</option
+          >
+          <option value="Java">Java</option>
+          <option value="Discrete Mathematics">Discrete Mathematics</option>
+        </select>
+        <input
+          type="text"
+          name="search-item"
+          id="item"
+          placeholder="What do you search for ?"
+        />
+        <input type="search" name="search" id="search" />
+        <button type="submit" class="black-btn">Search</button>
+      </form>
     </header>
     <main>
-        <section id="section-ads">
-            <h3>HOT ADS</h3>
+      <section id="section-ads">
+        <h3>HOT ADS</h3>
 
-            <div class="ads">
-
-                <figure class="ads-img">
-                    <img src="images/x1extreme4-1500x1000.jpg" alt="">
-                    <figcaption>
-                        <h1>Lenovo thinkpad</h1>
-                       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos voluptas culpa reiciendis!</p> 
-                       <span class="ads-btn"> <button type="submit" class="red-btn">4333</button><button type="submit" class="red-btn">Hello click</button></span>
-                    </figcaption>
-                </figure>
-            </div>
-        </section>
-        <section class="products">
-            <div class="titles">
-
-            </div>
-            <div class="carts-list">
-           
-            <div class="carts">
-                <figure>
-                    <img src="images/x1extreme4-1500x1000.jpg" alt="">
-                    <figcaption>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, veritatis!</figcaption>
-                </figure>
-            </div>
-            <div class="carts">
-                <figure>
-                    <img src="images/x1extreme4-1500x1000.jpg" alt="">
-                    <figcaption>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, veritatis!</figcaption>
-                </figure>
-            </div>
-            <div class="carts">
-                <figure>
-                    <img src="images/x1extreme4-1500x1000.jpg" alt="">
-                    <figcaption>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, veritatis!</figcaption>
-                </figure>
-            </div>
-            <div class="carts">
-                <figure>
-                    <img src="images/x1extreme4-1500x1000.jpg" alt="">
-                    <figcaption>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, veritatis!</figcaption>
-                </figure>
-            </div>
-          
+        <div class="ads">
+          <figure class="ads-img">
+            <img src="images/x1extreme4-1500x1000.jpg" alt="" />
+            <figcaption>
+              <h1>Lenovo thinkpad</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos
+                voluptas culpa reiciendis!
+              </p>
+              <span class="ads-btn">
+                <button type="submit" class="red-btn">4333</button
+                ><button type="submit" class="red-btn">
+                  Hello click
+                </button></span
+              >
+            </figcaption>
+          </figure>
         </div>
       </section>
       <section class="products">
-        <div class="titles">
-
-        </div>
+        <div class="titles"></div>
         <div class="carts-list">
-            <div class="carts">
-                <figure>
-                    <img src="images/x1extreme4-1500x1000.jpg" alt="">
-                    <figcaption>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, veritatis!</figcaption>
-                </figure>
-            </div>
-        <div class="carts">
+          <div class="carts">
             <figure>
-                <img src="images/x1extreme4-1500x1000.jpg" alt="">
-                <figcaption>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, veritatis!</figcaption>
+              <img src="images/x1extreme4-1500x1000.jpg" alt="" />
+          <figcaption>
+                Lorem     ipsum dolor sit amet consectetur, adipisicing elit. Dolor,
+                veritatis!
+                 <div class="carts-status">
+                    <div class="used">Used</div>
+                    <div class="from">From: Kigali</div>
+                    <div class="add-price">
+                        <div>add</div>
+                        <div>450$</div>
+                    </div>
+                </div>
+              </figcaption>
             </figure>
-        </div>
-        <div class="carts">
+          </div>
+          <div class="carts">
             <figure>
-                <img src="images/x1extreme4-1500x1000.jpg" alt="">
-                <figcaption>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, veritatis!</figcaption>
+              <img src="images/x1extreme4-1500x1000.jpg" alt="" />
+              <figcaption>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor,
+                veritatis!
+                 <div class="carts-status">
+                    <div class="used">Used</div>
+                    <div class="from">From: Kigali</div>
+                    <div class="add-price">
+                        <div>add</div>
+                        <div>450$</div>
+                    </div>
+                </div>
+              </figcaption>
             </figure>
-        </div>
-        <div class="carts">
+          </div>
+          <div class="carts">
             <figure>
-                <img src="images/x1extreme4-1500x1000.jpg" alt="">
-                <figcaption>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, veritatis!</figcaption>
+              <img src="images/x1extreme4-1500x1000.jpg" alt="" />
+              <figcaption>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor,
+                veritatis!
+                 <div class="carts-status">
+                    <div class="used">Used</div>
+                    <div class="from">From: Kigali</div>
+                    <div class="add-price">
+                        <div>add</div>
+                        <div>450$</div>
+                    </div>
+                </div>
+              </figcaption>
             </figure>
+          </div>
+          <div class="carts">
+            <figure>
+              <img src="images/x1extreme4-1500x1000.jpg" alt="" />
+              <figcaption>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor,
+                veritatis!
+                 <div class="carts-status">
+                    <div class="used">Used</div>
+                    <div class="from">From: Kigali</div>
+                    <div class="add-price">
+                        <div>add</div>
+                        <div>450$</div>
+                    </div>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
         </div>
-       
-    </div>
-  </section>
-  <section class="products">
-    <div class="titles">
-
-    </div>
-    <div class="carts-list">
-      
-  
-    <div class="carts">
-        <figure>
-            <img src="images/x1extreme4-1500x1000.jpg" alt="">
-            <figcaption>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, veritatis!</figcaption>
-        </figure>
-    </div>
-    <div class="carts">
-        <figure>
-            <img src="images/x1extreme4-1500x1000.jpg" alt="">
-            <figcaption>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, veritatis!</figcaption>
-        </figure>
-    </div>
-    <div class="carts">
-        <figure>
-            <img src="images/x1extreme4-1500x1000.jpg" alt="">
-            <figcaption>hello</figcaption>
-        </figure>
-    </div>
-    <div class="carts">
-        <figure>
-            <img src="images/x1extreme4-1500x1000.jpg" alt="">
-            <figcaption>hello</figcaption>
-        </figure>
-    </div>
-  
-</div>
-</section>
+      </section>
+      <section class="products">
+        <div class="titles"></div>
+        <div class="carts-list">
+          <div class="carts">
+            <figure>
+              <img src="images/x1extreme4-1500x1000.jpg" alt="" />
+              <figcaption>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor,
+                veritatis!
+                 <div class="carts-status">
+                    <div class="used">Used</div>
+                    <div class="from">From: Kigali</div>
+                    <div class="add-price">
+                        <div>add</div>
+                        <div>450$</div>
+                    </div>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="carts">
+            <figure>
+              <img src="images/x1extreme4-1500x1000.jpg" alt="" />
+              <figcaption>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor,
+                veritatis!
+                 <div class="carts-status">
+                    <div class="used">Used</div>
+                    <div class="from">From: Kigali</div>
+                    <div class="add-price">
+                        <div>add</div>
+                        <div>450$</div>
+                    </div>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="carts">
+            <figure>
+              <img src="images/x1extreme4-1500x1000.jpg" alt="" />
+              <figcaption>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor,
+                veritatis!
+                 <div class="carts-status">
+                    <div class="used">Used</div>
+                    <div class="from">From: Kigali</div>
+                    <div class="add-price">
+                        <div>add</div>
+                        <div>450$</div>
+                    </div>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="carts">
+            <figure>
+              <img src="images/x1extreme4-1500x1000.jpg" alt="" />
+              <figcaption>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor,
+                veritatis!
+                 <div class="carts-status">
+                    <div class="used">Used</div>
+                    <div class="from">From: Kigali</div>
+                    <div class="add-price">
+                        <div>add</div>
+                        <div>450$</div>
+                    </div>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+      <section class="products">
+        <div class="titles"></div>
+        <div class="carts-list">
+          <div class="carts">
+            <figure>
+              <img src="images/x1extreme4-1500x1000.jpg" alt="" />
+              <figcaption>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor,
+                veritatis!
+                 <div class="carts-status">
+                    <div class="used">Used</div>
+                    <div class="from">From: Kigali</div>
+                    <div class="add-price">
+                        <div>add</div>
+                        <div>450$</div>
+                    </div>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="carts">
+            <figure>
+              <img src="images/x1extreme4-1500x1000.jpg" alt="" />
+              <figcaption>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor,
+                veritatis!
+                 <div class="carts-status">
+                    <div class="used">Used</div>
+                    <div class="from">From: Kigali</div>
+                    <div class="add-price">
+                        <div>add</div>
+                        <div>450$</div>
+                    </div>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="carts">
+            <figure>
+              <img src="images/x1extreme4-1500x1000.jpg" alt="" />
+              <figcaption>hello</figcaption>
+            </figure>
+          </div>
+          <div class="carts">
+            <figure>
+              <img src="images/x1extreme4-1500x1000.jpg" alt="" />
+              <figcaption>hello</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
-        <div class="footer-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum assumenda ducimus cumque placeat. Excepturi voluptatem minus culpa dolore odit omnis nulla impedit explicabo perferendis rem ipsam totam sunt, cumque harum.
-        </div>
+      <div class="footer-text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum assumenda
+        ducimus cumque placeat. Excepturi voluptatem minus culpa dolore odit
+        omnis nulla impedit explicabo perferendis rem ipsam totam sunt, cumqu
+        
+      </div>
     </footer>
-</body>
+    <script src="node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
+    <script src="node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"></script>
+    <script src="node_modules/@fortawesome/fontawesome-free/js/solid.js"></script>
+  </body>
 </html>
