@@ -250,18 +250,16 @@ h5 {
   grid-gap: 20px;
 }
 
-.cat-one {
-  display: flex;
-  flex-direction: column;
-}
-
-.cat-two {
+.cat-two,
+.cat-one,
+.footer-nav {
   display: flex;
   flex-direction: column;
 }
 
 .cat-one a,
-.cat-two a {
+.cat-two a,
+.footer-nav a {
   text-decoration: none;
   color: #656565
 }
@@ -269,3 +267,8 @@ h5 {
 .cat-one a:hover {
   color: #d35266;
 }
+
+.cat-two a:hover {
+  color: #d35266;
+}
+
