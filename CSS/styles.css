@@ -231,3 +231,41 @@ figure.ads-img img {
   justify-content: space-between;
 }
 
+footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  padding: 100px;
+  align-items: center;
+  grid-gap: 45px;
+}
+
+h5 {
+  border-bottom: 1px solid #d35266;
+  color: #d35266;
+}
+
+.cat-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.cat-one {
+  display: flex;
+  flex-direction: column;
+}
+
+.cat-two {
+  display: flex;
+  flex-direction: column;
+}
+
+.cat-one a,
+.cat-two a {
+  text-decoration: none;
+  color: #656565
+}
+
+.cat-one a:hover {
+  color: #d35266;
+}
