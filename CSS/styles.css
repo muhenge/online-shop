@@ -30,14 +30,19 @@ body {
   color: #656565;
 }
 
-nav a img {
+img.logo {
   width: 35px;
+}
+
+.fa-buysellads {
+  color: #d35266;
 }
 
 nav {
   background-color: #383838;
   color: white;
   position: relative;
+
 }
 
 .menu {
@@ -107,12 +112,6 @@ header {
   color: white;
   padding: 35px;
 }
-/*
-form {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 1px;
-} */
 
 input {
   border: none;
@@ -149,10 +148,6 @@ section {
   padding: 0 40px;
   cursor: pointer;
 }
-/*
- section {
-    margin: 0 190px;
-}  */
 
 .carts-list {
   margin: auto 150px auto 150px;
@@ -195,6 +190,15 @@ h1 {
   width: 50%;
 }
 
+section.products {
+  margin-top: 75px;
+}
+
+h3.section-title {
+  color: #656565;
+  border-bottom: 2px solid rgba(228, 228, 228, 0.9)
+}
+
 figure img {
   width: 150px;
 }
@@ -233,10 +237,10 @@ figure.ads-img img {
 
 footer {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-  padding: 100px;
-  align-items: center;
-  grid-gap: 45px;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 50px;
+  grid-gap: 60px;
+ 
 }
 
 h5 {
@@ -252,7 +256,7 @@ h5 {
 
 .cat-two,
 .cat-one,
-.footer-nav {
+ .footer-nav {
   display: flex;
   flex-direction: column;
 }
@@ -272,3 +276,27 @@ h5 {
   color: #d35266;
 }
 
+.footer-text {
+  text-align: center;
+}
+
+.footer-text p {
+  text-align: justify;
+}
+
+.other-info {
+  align-self: center;
+}
+
+.country,
+.language,
+.currency {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+select#myList {
+  border: 1px solid #888888;
+  margin: 15px;
+}
