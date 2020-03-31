@@ -15,7 +15,7 @@
 ![screenshot](screenshots/home-sm.png);
 
 #### Tablets screens
-![screenshot](screenshots/home-sm.png);
+![screenshot](screenshots/home-md.png);
 
 ### Chat page
 
