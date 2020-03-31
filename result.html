@@ -1,28 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="CSS/styles.css" />
-    <link
-      rel="stylesheet"
-      href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.css"
-    />
-    <link
-      rel="stylesheet"
-      href="node_modules/@fortawesome/fontawesome-free/css/brands.css"
-    />
-    <link
-      rel="stylesheet"
-      href="node_modules/@fortawesome/fontawesome-free/css/solid.css"
-    />
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <title>Shop | Result</title>
-  </head>
-  <body>
-   
-    <script src="node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
-    <script src="node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"></script>
-    <script src="node_modules/@fortawesome/fontawesome-free/js/solid.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="CSS/styles.css" />
+  <link rel="stylesheet" href="CSS/result.css">
+  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.css" />
+  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/brands.css" />
+  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/solid.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <title>Shop | Result</title>
+</head>
+
+<body>
+  <nav>
+    <div class="menu">
+      <div id="logo">
+        <a href="home.html"><i class="fab fa-buysellads fa-5x"></i></a>
+      </div>
+      <ul>
+        <li><a href="home.html">HOME</a></li>
+        <li><a href="#">COLLECTION</a></li>
+        <li><a href="#"> PURCHASE LIST</a></li>
+        <li>
+          <button class="red-btn" type="submit">POST AND AD</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="pic">
+      <span></span>
+      <span>Jane Doe</span>
+      <a href="#"><img class="user-pic" src="images/beauty" alt="..." /></a>
+    </div>
+  </nav>
+  <header>
+    <h2>ZATTIX</h2>
+    <p>Buying and Selling Couldn't Be Simpler than this!</p>
+    <form class="header-form" method="GET" action="/result.html">
+      <select name="dropdown">
+        <option value="Computer Architecture" selected>Computer Architecture</option>
+        <option value="Java">Java</option>
+        <option value="Discrete Mathematics">Discrete Mathematics</option>
+      </select>
+      <input type="text" name="search-item" id="item" placeholder="What do you search for ?" />
+      <input type="search" name="search" id="search" />
+      <button type="submit" class="black-btn">Search</button>
+    </form>
+  </header>
+  <main id="result">
+    <aside>
+    
+      <div id="choose">
+        <form>
+       <div class="rentt">
+        <input type="checkbox" id="rent" name="rent" value="rent" /><span><label for="rent">Rent</label></span>
+       </div>
+        <div class="own">
+          <input type="checkbox" id="ownership" name="ownership" value="ownership" /><span><label
+          for="ownership">ownership</label></span>
+        </div>
+         
+        
+         
+         
+        </form>
+      </div>
+      <div class="side">
+        <h4>Type</h4>
+        <form>
+          <div class="check">
+            <input type="checkbox" id="Pl" name="Place" value="Place" /><label for="Place">Entire Place</label>
+          </div>
+          <div class="check">
+            <input type="checkbox" id="roo" name="room" value="room" /><label for="room">Private Room</label>
+          </div>
+          <div class="check">
+            <input type="checkbox" id="shared" name="shared" value="shared" /><label for="shared">Shared Room</label>
+          </div>
+        </form>
+      </div>
+      <div class="side">
+        <h4>Size</h4>
+        <form>
+          <div class="check">
+            <input type="checkbox" id="Place" name="Place" value="Place" /><label for="Place">Entire Place</label>
+          </div>
+          <div class="check">
+            <input type="checkbox" id="room" name="room" value="room" /><label for="room">Private Room</label>
+          </div>
+          <div class="check">
+            <input type="checkbox" id="share" name="shared" value="shared" /><label for="shared">Shared Room</label>
+          </div>
+        </form>
+      </div>
+      <div class="side">
+        <h4>Price range</h4>
+        <form>
+          <div class="check">
+            <input type="checkbox" id="Place-one" name="Place" value="Place" /><label for="Place">Entire Place</label>
+          </div>
+          <div class="check">
+            <input type="checkbox" id="room-one" name="room" value="room" /><label for="room">Private Room</label>
+          </div>
+          <div class="check">
+            <input type="checkbox" id="sharedone" name="shared" value="shared" /><label for="shared">Shared Room</label>
+          </div>
+        </form>
+      </div>
+    </aside>
+    <section id="section-result">
+      <article>Lorem ipsum dolor sit amet . Veniam, rerum atque porro officiis vitae consequuntur esse. Eaque.</article>
+      <article class="result-articles">
+        <figure class="result-figure">
+          <img src="images/x1extreme4-1500x1000.jpg" alt="">
+          <figcaption>
+            <div class="res-titles">
+              <h4>Lorem ipsum dolor sit amet .</h4>
+            <span class="span-red">200 M, Rent</span>
+            </div>
+            
+            <small>Lorem ipsum dolor, sit amet . Iste totam modi autem dicta impedit aperiam iure quisquam cum porro quam amet perspiciatis praesentium, eius tempore suscipit illum, ipsum ut culpa!</small>
+            <span>location</span>
+            <div class="date-price">
+              <span>23 Nov, 2014</span>
+              <span class="price">
+                150$
+              </span>
+            </div>
+          </figcaption>
+        </figure>
+      </article>
+      <article class="result-articles">
+        <figure class="result-figure">
+          <img src="images/x1extreme4-1500x1000.jpg" alt="">
+          <figcaption>
+            <div class="res-titles">
+              <h4>Lorem ipsum dolor sit amet .</h4>
+            <span class="span-red">200 M, Rent</span>
+            </div>
+            
+            <small>Lorem ipsum dolor, sit amet . Iste totam modi autem dicta impedit aperiam iure quisquam cum porro quam amet perspiciatis praesentium, eius tempore suscipit illum, ipsum ut culpa!</small>
+            <span>location</span>
+            <div class="date-price">
+              <span>23 Nov, 2014</span>
+              <span class="price">
+                150$
+              </span>
+            </div>
+          </figcaption>
+        </figure>
+      </article>
+      <article class="result-articles">
+        <figure class="result-figure">
+          <img src="images/x1extreme4-1500x1000.jpg" alt="">
+          <figcaption>
+            <div class="res-titles">
+              <h4>Lorem ipsum dolor sit amet .</h4>
+            <span class="span-red">200 M, Rent</span>
+            </div>
+            
+            <small>Lorem ipsum dolor, sit amet . Iste totam modi autem dicta impedit aperiam iure quisquam cum porro quam amet perspiciatis praesentium, eius tempore suscipit illum, ipsum ut culpa!</small>
+            <span>location</span>
+            <div class="date-price">
+              <span>23 Nov, 2014</span>
+              <span class="price">
+                150$
+              </span>
+            </div>
+          </figcaption>
+        </figure>
+      </article>
+      <article class="result-articles">
+        <figure class="result-figure">
+          <img src="images/x1extreme4-1500x1000.jpg" alt="">
+          <figcaption>
+            <div class="res-titles">
+              <h4>Lorem ipsum dolor sit amet .</h4>
+            <span class="span-red">200 M, Rent</span>
+            </div>
+            
+            <small>Lorem ipsum dolor, sit amet . Iste totam modi autem dicta impedit aperiam iure quisquam cum porro quam amet perspiciatis praesentium, eius tempore suscipit illum, ipsum ut culpa!</small>
+            <span>location</span>
+            <div class="date-price">
+              <span>23 Nov, 2014</span>
+              <span class="price">
+                150$
+              </span>
+            </div>
+          </figcaption>
+        </figure>
+      </article>
+      <article class="result-articles">
+        <figure class="result-figure">
+          <img src="images/x1extreme4-1500x1000.jpg" alt="">
+          <figcaption>
+            <div class="res-titles">
+              <h4>Lorem ipsum dolor sit amet .</h4>
+            <span class="span-red">200 M, Rent</span>
+            </div>
+            
+            <small>Lorem ipsum dolor, sit amet . Iste totam modi autem dicta impedit aperiam iure quisquam cum porro quam amet perspiciatis praesentium, eius tempore suscipit illum, ipsum ut culpa!</small>
+            <span>location</span>
+            <div class="date-price">
+              <span>23 Nov, 2014</span>
+              <span class="price">
+                150$
+              </span>
+            </div>
+          </figcaption>
+        </figure>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-text">
+      <div class="logo">
+        <i class="fab fa-buysellads fa-5x"></i>
+      </div>
+      <p>
+        Lorem ipsum dolor sit amet . Ipsum
+        assumenda ducimus cumque placeat. Excepturi voluptatem minus culpa
+        dolore odit omnis nulla impedit explicabo perferendis rem ipsam totam
+        sunt,
+      </p>
+    </div>
+    <div class="categories">
+      <h5>CATEGORIES</h5>
+      <div class="cat-list">
+        <div class="cat-one">
+          <a href="#"> Real Estate</a>
+          <a href="#"> Automotive</a>
+          <a href="#"> Electronics</a>
+          <a href="#">Clothing</a>
+          <a href="#"> Fashion</a>
+          <a href="#"> Kids</a>
+          <a href="#">Food & Drink</a>
+        </div>
+        <div class="cat-two">
+          <a href="#"> Real Estate</a>
+          <a href="#"> Automotive</a>
+          <a href="#"> Electronics</a>
+          <a href="#">Clothing</a>
+          <a href="#"> Fashion</a>
+          <a href="#"> Kids</a>
+          <a href="#">Food & Drink</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-nav">
+      <h5>NAVIGATION</h5>
+      <a href="#">Home</a>
+      <a href="#">Sign In</a>
+      <a href="#">Sign Up</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">FAQ</a>
+      <a href="#">Help</a>
+    </div>
+    <div class="other-info">
+      <div class="country">
+        <div class="chooser">COUNTRY</div>
+        <div class="in">
+          <form>
+            <select class="myList">
+              <option value="choose" disabled>Choose</option>
+              <option value="country-one">CountryOne</option>
+              <option value="country-two">CountryTwo</option>
+              <option value="country-three">CountryThree</option>
+              <option value="country-four">CountryFour</option>
+            </select>
+          </form>
+        </div>
+      </div>
+      <div class="language">
+        <div class="chooser">LANGUAGE</div>
+        <div class="in">
+          <form>
+            <select class="myList">
+              <option value="choose" disabled>Choose</option>
+              <option value="country-one">LanguageOne</option>
+              <option value="country-two">LanguageTwo</option>
+              <option value="country-three">LThree</option>
+              <option value="country-four">CountryFour</option>
+            </select>
+          </form>
+        </div>
+      </div>
+      <div class="currency">
+        <div class="chooser">CURRENCY</div>
+        <div class="in">
+          <form>
+            <select id="myList">
+              <option value="choose" disabled>Choose</option>
+              <option value="country-one">CurrencyOne</option>
+              <option value="country-two">CurrencyTwo</option>
+              <option value="country-three">CurrencyThree</option>
+              <option value="country-four">CurrencyFour</option>
+            </select>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
+  <script src="node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"></script>
+  <script src="node_modules/@fortawesome/fontawesome-free/js/solid.js"></script>
+</body>
 </html>
