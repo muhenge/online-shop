@@ -386,3 +386,67 @@ select#myList {
   }
 
 }
+
+/* ---------------------------result style------------------------------------------------ */
+main#result {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-gap: 0;
+}
+
+aside {
+  padding: 35px;
+  border-right: 1px solid rgba(228, 228, 228, 0.9);
+}
+
+#choose form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+form .check {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+section#section-result {
+  border-right: 1px solid rgba(228, 228, 228, 0.9);
+  margin-right: 12px;
+}
+
+article.result-articles {
+  border: 1px solid rgba(228, 228, 228, 0.9);
+}
+
+figure.result-figure {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-gap: 10px;
+}
+
+.res-titles {
+  line-height: 0.2rem;
+}
+
+.span-red {
+  color: #d35266;
+}
+
+.date-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.price {
+  background-color: #d35266;
+  color: white;
+  padding: 5px;
+}
+
+h4 {
+  font-weight: bold;
+  border-bottom: 1px solid rgba(228, 228, 228, 0.9);
+}
