@@ -44,12 +44,12 @@
 
 ## Live Demo
 
-[Live Demo Link](https://muhenge.github.io/capstone/)
+[Live Demo Link](https://muhenge.github.io/online-shop/home.html)
 
 
 ## Getting Started
 
--Use `git clone https://github.com/muhenge/capstone.git` 
+-Use `https://github.com/muhenge/online-shop.git` 
 
 ### Setup
 Use `npm install` to set up and install all packages(fontawesome) locally
@@ -64,6 +64,6 @@ Use `npm install` to set up and install all packages(fontawesome) locally
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/muhenge/capstone/issues).
+Feel free to check the [issues page](https://github.com/muhenge/online-shop/issues).
 
 Feel free to clone
