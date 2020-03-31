@@ -302,7 +302,7 @@ h5 {
   align-items: center;
 }
 
-select#myList {
+select.myList {
   border: 1px solid #888;
   margin: 15px;
 }
