@@ -68,6 +68,14 @@ ul li a {
   color: white;
 }
 
+.cat-one a,
+.cat-two a,
+.footer-nav a {
+  text-decoration: none;
+  color: #656565
+}
+
+
 ul li a:hover {
   color: #d35266;
 }
@@ -91,7 +99,7 @@ button.cart-btn {
   position: absolute;
   right: 0;
   top: 0;
-  margin-right: 75px;
+  margin-right: 10px;
   justify-content: space-between;
 }
 
@@ -121,22 +129,29 @@ header {
   padding: 35px;
 }
 
+header form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 1px;
+
+}
+
 input {
   border: none;
-  height: 40px;
   color: #888888;
-  font-size: large;
+  font-size: normal;
+  margin: 0 1px;
 }
 
 select {
   border: none;
   background-color: white;
-  height: 40px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   color: #888888;
-  font-size: large;
+  font-size: normal;
 }
 
 main {
@@ -204,7 +219,7 @@ h3.section-title {
 }
 
 figure img {
-  width: 250px;
+  width: 193px;
 }
 
 figure.ads-img img {
@@ -232,9 +247,6 @@ figure.ads-img img {
   color: #d35266;
 }
 
-.from {
-}
-
 .add-price {
   display: flex;
   flex-direction: row;
@@ -243,7 +255,7 @@ figure.ads-img img {
 
 footer {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax( 250px, 1fr));  
   padding: 50px;
   grid-gap: 60px;
  
@@ -262,16 +274,9 @@ h5 {
 
 .cat-two,
 .cat-one,
- .footer-nav {
+.footer-nav {
   display: flex;
   flex-direction: column;
-}
-
-.cat-one a,
-.cat-two a,
-.footer-nav a {
-  text-decoration: none;
-  color: #656565
 }
 
 .cat-one a:hover {
@@ -316,9 +321,9 @@ select#myList {
     display: none;
   }
 
+
   section#section-ads {
-    padding: 0;
-    margin: 0;
+    display: none;
   }
 
   section.products {
@@ -338,9 +343,9 @@ select#myList {
 
   .menu {
     display: flex;
-    padding: 5px;
+    padding: 1px;
   }
-  
+
   .footer-text {
     display: none;
   }
@@ -348,10 +353,15 @@ select#myList {
   ul {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    align-content: space-between;
+
   }
+
+
 }
 
- @media only screen and (min-width: 526px) and (max-width: 640px) {
+@media only screen and (min-width: 526px) and (max-width: 640px) {
   .pic {
     display: none;
   }
@@ -361,8 +371,7 @@ select#myList {
   }
 
   section#section-ads {
-    padding: 0;
-    margin: 0;
+    display: none;
   }
 
   section.products {
@@ -396,7 +405,7 @@ select#myList {
 
   li {
     padding: 0;
-    margin: 4px
+    margin: 4px;
   }
 
  }
