@@ -7,27 +7,10 @@
 ## Screenshots
 
 ### Home page
-
-#### Laptop and Desktops screen
-![screenshot](screenshots/home-lg.png);
-
-#### Mobile screens
-![screenshot](screenshots/home-sm.png);
-
-#### Tablets screens
-![screenshot](screenshots/home-md.png);
+![screenshot](screenshots/home-lg.png)
 
 ### Chat page
-
-#### Laptop and Desktops screen
-![screenshot](screenshots/result-home.png);
-
-#### Mobile screens
-![screenshot](screenshots/result-sm.png);
-
-#### Tablets screens
-![screenshot](screenshots/result-md.png);
-
+![screenshot](screenshots/result-home.png)
 
 ## Built With
 
@@ -49,7 +32,7 @@
 
 ## Getting Started
 
--Use `https://github.com/muhenge/online-shop.git` 
+-Use `https://github.com/muhenge/online-shop.git`
 
 ### Setup
 Use `npm install` to set up and install all packages(fontawesome) locally
