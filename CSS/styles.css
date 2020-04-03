@@ -116,8 +116,9 @@ button.cart-btn {
 }
 
 .user-pic {
-  width: 35px;
-  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 
 header {
@@ -334,6 +335,10 @@ select.myList {
     margin: 0;
   }
 
+  section {
+    padding: 26px;
+  }
+
   .menu {
     padding: 0;
     flex: none;
@@ -342,6 +347,7 @@ select.myList {
   .footer-text {
     display: none;
   }
+  
 
   ul {
     display: grid;
@@ -357,10 +363,6 @@ select.myList {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     grid-gap: 24px;
     margin: 0 10px 0 20px;
-  }
-
-  section {
-    margin-top: 0;
   }
 
   figure img {
@@ -416,8 +418,8 @@ select.myList {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     grid-gap: 64px;
-    margin: 0 10px 0 20px;  
-  }
+    margin: 0 10px 0 20px; 
+   }
 }
 
 @media only screen and (min-width: 644px) and (max-width: 800px) {
@@ -509,10 +511,15 @@ figure.result-figure {
   display: grid;
   grid-template-columns: 1fr 5fr;
   grid-gap: 10px;
+  align-items: center;
 }
 
 .res-titles {
   line-height: 0.2rem;
+}
+
+.h-result {
+  color: inherit;
 }
 
 .span-red {
@@ -531,6 +538,11 @@ span.price {
   padding: 5px;
 }
 
+.result-img {
+  width: 250px;
+  height: 230px;
+}
+
 .side h4 {
   font-weight: bold;
   border-bottom: 1px solid rgba(228, 228, 228, 0.9);
@@ -538,28 +550,50 @@ span.price {
 
 @media only screen and (min-width: 320px) and (max-width: 473px) {
   aside {
-    font-size: 10px;
-    padding: 3px;
+    display: none;
   }
 
-  #choose form {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
+  .red-btn {
+    display: none;
+  }
+
+  main#result {
+    display: block;
+    padding: 0;
   }
 
   figure.result-figure {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+  .fa-align-justify {
+    color: white;
+  }
+
+  .filter-search {
+    margin-left: 75px;
   }
 }
 
 @media only screen and (min-width: 474px) and (max-width: 768px) {
   aside {
-    padding: 5px;
+    display: none;
   }
 
-  #choose form {
+  main#result {
+    display: block;
+    padding: 50px;
+  }
+
+  figure.result-figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+  /* #choose form {
     display: grid;
     grid-template-rows: 1fr 1fr;
   }
@@ -568,5 +602,5 @@ span.price {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+  } */
 }
