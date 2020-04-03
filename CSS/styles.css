@@ -361,8 +361,7 @@ select.myList {
   .carts-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    grid-gap: 24px;
-    margin: 0 10px 0 20px;
+    margin: 0 0 0 0;
   }
 
   figure img {
