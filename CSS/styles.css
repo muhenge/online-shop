@@ -251,6 +251,11 @@ figure.ads-img img {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+}
+
+.theprice {
+  color: #d35266;
 }
 
 footer {
@@ -309,6 +314,10 @@ select.myList {
     display: none;
   }
 
+  li.nav-btn {
+    display: none;
+  }
+
   header {
     display: none;
   }
@@ -326,8 +335,8 @@ select.myList {
   }
 
   .menu {
-    display: flex;
-    padding: 1px;
+    padding: 0;
+    flex: none;
   }
 
   .footer-text {
@@ -335,17 +344,19 @@ select.myList {
   }
 
   ul {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: smaller;
+    grid-gap: 5px;
     width: 100%;
-    align-content: space-between;
+    padding: 10px;
   }
 
   .carts-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     grid-gap: 24px;
-    margin: 0 10px 0 20px; 
+    margin: 0 10px 0 20px;
   }
 
   section {
@@ -405,7 +416,7 @@ select.myList {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     grid-gap: 64px;
-    margin: 0 90px 0 auto;
+    margin: 0 10px 0 20px;  
   }
 }
 
@@ -439,10 +450,6 @@ select.myList {
     padding: 0;
     margin: 0;
   }
-/* 
-  section.products {
-    padding: 0;
-  } */
 
   .titles {
     margin: 0;
@@ -452,7 +459,8 @@ select.myList {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     grid-gap: 10px;
-    margin: 0 90px 0 auto;  }
+    margin: 0 10px 0 20px;
+  }
 
   figure img {
     width: 85px;
