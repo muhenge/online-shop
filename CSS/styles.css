@@ -155,10 +155,6 @@ select {
 main {
   background-color: #f6f6f6;
 }
-/* 
-section {
-  margin: 12px;
-} */
 
 .black-btn {
   background-color: #383838;
@@ -271,6 +267,7 @@ h5 {
   border-bottom: 1px solid #d35266;
   color: #d35266;
 }
+
 .cat-two,
 .cat-one,
 .footer-nav {
@@ -485,6 +482,10 @@ aside {
   border-right: 1px solid rgba(228, 228, 228, 0.9);
 }
 
+.aside-menu {
+  display: none;
+}
+
 #choose form {
   display: flex;
   flex-direction: row;
@@ -552,7 +553,18 @@ span.price {
     display: none;
   }
 
-  .red-btn {
+  .aside-menu {
+    display: block;
+  }
+
+  .filter-btn {
+    border: none;
+    color: white;
+    background-color: inherit;
+    cursor: pointer;
+  }
+
+  .logo {
     display: none;
   }
 
@@ -581,6 +593,26 @@ span.price {
     display: none;
   }
 
+  .aside-menu {
+    display: block;
+    margin-right: 60px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .filter-btn {
+    border: none;
+    color: white;
+    background-color: inherit;
+    cursor: pointer;
+  }
+
+  .fa-search {
+    font-size: 25px;
+  }
+
   main#result {
     display: block;
     padding: 50px;
@@ -591,15 +623,4 @@ span.price {
     flex-direction: column;
     align-items: center;
   }
-
-  /* #choose form {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-  }
-
-  figure.result-figure {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  } */
 }
