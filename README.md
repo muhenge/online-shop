@@ -1,6 +1,7 @@
 # Online Shop
 
-> This project is from [Microverse](https://www.microverse.org/) main curriculum, the Capstone [click here](https://www.notion.so/HTML-CSS-capstone-project-Online-shop-for-electronics-a3dbffab0c744c33b70001a79876edde).
+> This project is from [Microverse](https://www.microverse.org/) main curriculum, the Capstone [click here](https://www.notion.so/HTML-CSS-capstone-project-Online-shop-for-electronics-a3dbffab0c744c33b70001a79876edde). 
+The design is from [Behance](https://www.behance.net/gallery/24796463/ZATTIX), the author and designer by [Mohammed Awad](https://www.behance.net/M_Awad)
 
 
 
