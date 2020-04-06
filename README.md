@@ -7,11 +7,11 @@ The design is from [Behance](https://www.behance.net/gallery/24796463/ZATTIX), t
 
 ### Home page
 
-![screenshot](screenshots/home.png);
+![screenshot](screenshots/result.png)
 
 ### Search result page
 
-![screenshot](screenshots/result.png);
+![screenshot](screenshots/result.png)
 
 ## Built With
 
