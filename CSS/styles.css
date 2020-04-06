@@ -79,9 +79,15 @@ ul li a:hover {
 }
 
 button.cart-btn {
-  border: none;
-  padding: 5px;
+  border: 1px solid #888;
   cursor: pointer;
+  background-color: inherit;
+  padding: 0 5px;
+}
+
+.fa-plus {
+  color: #888;
+  font-size: 10px;
 }
 
 .profile {
@@ -95,9 +101,8 @@ button.cart-btn {
   flex-direction: row;
   align-items: center;
   position: absolute;
-  right: 0;
-  top: 0;
-  margin-right: 10px;
+  right: 5%;
+  top: 15%;
   justify-content: space-between;
 }
 
@@ -154,6 +159,7 @@ select {
 
 main {
   background-color: #f6f6f6;
+  padding-bottom: 50px;
 }
 
 .black-btn {
@@ -166,7 +172,7 @@ main {
   margin-left: 30px;
 }
 
-section#section-ads {
+section.section-ads {
   background-color: white;
   padding: 0 170px;
   border-bottom: 1px solid rgba(228, 228, 228, 0.9);
@@ -192,8 +198,9 @@ h1 {
 .ads figure {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-end;
   width: 70%;
+  justify-content: space-between;
 }
 
 .ads-btn {
@@ -321,7 +328,7 @@ select.myList {
     display: none;
   }
 
-  section#section-ads {
+  section.section-ads {
     display: none;
   }
 
@@ -376,7 +383,7 @@ select.myList {
     display: none;
   }
 
-  section#section-ads {
+  section.section-ads {
     display: none;
   }
 
@@ -444,7 +451,7 @@ select.myList {
     display: none;
   }
 
-  section#section-ads {
+  section.section-ads {
     padding: 0;
     margin: 0;
   }
