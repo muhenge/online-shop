@@ -11,7 +11,7 @@ The design is from [Behance](https://www.behance.net/gallery/24796463/ZATTIX), t
 
 ![screenshot](screenshots/home-lg.png);
 
-### Chat page
+### Search result page
 
 ![screenshot](screenshots/result-home.png);
 
