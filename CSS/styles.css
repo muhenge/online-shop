@@ -79,7 +79,7 @@ ul li a:hover {
 }
 
 button.cart-btn {
-  border: 1px solid #888; 
+  border: 1px solid #888;
   cursor: pointer;
   background-color: inherit;
   padding: 0 5px;
@@ -171,7 +171,7 @@ main {
   margin-left: 30px;
 }
 
-section#section-ads {
+section.section-ads {
   background-color: white;
   padding: 0 170px;
   border-bottom: 1px solid rgba(228, 228, 228, 0.9);
@@ -197,7 +197,7 @@ h1 {
 .ads figure {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-end;
   width: 70%;
   justify-content: space-between;
 }
@@ -327,7 +327,7 @@ select.myList {
     display: none;
   }
 
-  section#section-ads {
+  section.section-ads {
     display: none;
   }
 
@@ -382,7 +382,7 @@ select.myList {
     display: none;
   }
 
-  section#section-ads {
+  section.section-ads {
     display: none;
   }
 
@@ -450,7 +450,7 @@ select.myList {
     display: none;
   }
 
-  section#section-ads {
+  section.section-ads {
     padding: 0;
     margin: 0;
   }
